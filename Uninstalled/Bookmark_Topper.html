@@ -3,50 +3,57 @@
 	<head>
 		<title>Uninstallation Feedback - Bookmark Topper - Daniel Herr Software</title>
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
-		<link rel="stylesheet" href="test.css">
+		<link rel="stylesheet" href="uninstalled.css">
 	</head>
 	<body>
 		<header>
-			<h1>Daniel Herr Software</h1>
+			<h1>
+				<a href="/">Daniel Herr Software</a>
+			</h1>
 			<h2>Bookmark Topper Uninstallation Feedback</h2>
 		</header>
+		<p>If you are experiencing a problem and would like help, you can ask on
+			<a href="https://www.reddit.com/r/Daniel_Herr_Software">Reddit</a>
+			or <a href="https://groups.google.com/g/daniel_herr_software">Google Groups</a>.
+		</p>
 		<form name="Uninstalled" method="post" action="https://submit-form.com/CkppRiebr">
 			<input type="hidden" name="software" value="Bookmark Topper">
 			<fieldset>
 				<legend>What was the reason for uninstalling?</legend>
 				<label>
-					<input type="radio" value="unneeded">no longer needed
+					<input type="radio" name="reason" value="unneeded">no longer needed
 				</label>
 				<label>
-					<input type="radio" value="alternative">found a better alternative
+					<input type="radio" name="reason" value="alternative">found a better alternative
 				</label>
 				<label>
-					<input type="radio" value="bugs">experienced bugs or problems
+					<input type="radio" name="reason" value="bugs">experienced bugs or problems
 				</label>
 				<label>
-					<input type="radio" value="other">another reason
+					<input type="radio" name="reason" value="other">another reason
 				</label>
 			</fieldset>
 			<label>
 				How satisfied overall were you with Bookmark Topper?
-				<input type="range" name="satisfaction" step="10" list="satisfaction">
+				<input type="range" name="satisfaction" max="10" list="satisfaction">
 				<datalist id="satisfaction">
-					<option value="0" label="completely unsatisfied"></option>
-					<option value="100" label="completely satisfied"></option>
+					<option value="0">unsatisfied</option>
+					<option value="10">satisfied</option>
 				</datalist>
+			</label><br>
 			<label>
-				Have you experienced any specific problems?
+				Have you experienced any specific problems?<br>
 				<textarea></textarea>
-			</label>
+			</label><br>
 			<label>
-				Do you have any suggestions for improvements that could be made?
+				Do you have any suggestions for improvements that could be made?<br>
 				<textarea></textarea>
-			</label>
+			</label><br>
 			</label>
 			<label>
 				Email (if a reply is desired):
-				<input type="email" name="email">
-			</label>
+				<input type="email" name="email" size="40">
+			</label><br>
 			<button type="submit">Submit Feedback</button>
 		</form>
 	</body>

@@ -1,9 +1,56 @@
+* {
+	box-sizing: border-box;
+}
 html {
 	color-scheme: light dark;
 }
 body {
 	font-family: sans-serif;
+	width: fit-content;
+	margin: auto;
 }
+
+h1, h2 {
+	text-align: center;
+}
+fieldset {
+	border: none;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 1em;
+}
+
 label {
 	display: block;
+}
+fieldset label {
+	margin-top: 0;
+}
+
+input, button {
+	font-size: medium;
+}
+input:user-invalid {
+	border-color: red;
+}
+
+input[type="range"] {
+	display: block;
+	width: 100%;
+}
+
+datalist {
+	display: flex;
+	justify-content: space-between;
+}
+
+textarea {
+	display: block;
+	font-size: medium;
+	resize: vertical;
+	width: 100%;
+}
+
+button {
+	margin-top: 2em;
 }
