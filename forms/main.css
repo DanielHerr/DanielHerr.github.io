@@ -6,4 +6,6 @@ html {
 }
 body {
 	font-family: sans-serif;
+	width: fit-content;
+	margin: auto;
 }
