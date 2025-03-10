@@ -1,9 +1,6 @@
 body {
 	width: min-content;
 }
-header, main {
+header {
 	width: max-content;
-}
-aside {
-	margin-top: 2em;
 }
