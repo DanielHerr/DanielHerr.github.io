@@ -1,18 +1,7 @@
-* {
-	box-sizing: border-box;
-}
-html {
-	color-scheme: light dark;
-}
-body {
-	font-family: sans-serif;
-	width: fit-content;
-	margin: auto;
-}
-
 h1, h2 {
 	text-align: center;
 }
+
 fieldset {
 	border: none;
 	padding: 0;
@@ -52,5 +41,5 @@ textarea {
 }
 
 button {
-	margin-top: 2em;
+	margin-top: 1em;
 }

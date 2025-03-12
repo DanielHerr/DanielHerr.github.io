@@ -1,0 +1,6 @@
+body {
+	width: min-content;
+}
+header {
+	width: max-content;
+}
