@@ -1,8 +1,10 @@
-body {
-	width: min-content;
+ol {
+	list-style-type: none;
+	padding-left: 0;
 }
-header, main {
-	width: max-content;
+ul {
+	list-style-type: disc;
+	padding-left: 16px;
 }
 aside {
 	margin-top: 2em;
