@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "public": "main",
+    "cleanUrls": true,
+    "headers": [ {
+      "source": "**",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Expose-Headers", "value": "*" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" }
+      ]
+    } ],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
