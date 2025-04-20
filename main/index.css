@@ -1,0 +1,21 @@
+h3 {
+	font-size: 1.2em;
+}
+img {
+ vertical-align: bottom;
+}
+address {
+	display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+address h2 {
+	width: 100%;
+	margin-bottom: 0;
+}
+address a {
+	font-size: 1.2em;
+}
+address img, address picture {
+	vertical-align: middle;
+}

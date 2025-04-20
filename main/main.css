@@ -7,8 +7,13 @@ html {
 }
 body {
 	font-family: sans-serif;
-	width: fit-content;
+	width: min-content;
+	max-width: 100%;
 	margin: auto;
+}
+header, main {
+	width: max-content;
+	max-width: 100%;
 }
 h1 {
 	margin-top: 0;
