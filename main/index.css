@@ -17,5 +17,5 @@ address a {
 	font-size: 1.2em;
 }
 address img, address picture {
-	vertical-align: middle;
+	vertical-align: baseline;
 }
