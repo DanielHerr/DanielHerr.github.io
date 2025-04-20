@@ -4,18 +4,18 @@ h3 {
 img {
  vertical-align: bottom;
 }
-#profiles {
+address {
 	display: flex;
   flex-wrap: wrap;
   gap: 1em;
 }
-#profiles h2 {
+address h2 {
 	width: 100%;
 	margin-bottom: 0;
 }
-#profiles a {
+address a {
 	font-size: 1.2em;
 }
-#profiles img, #profiles picture {
+address img, address picture {
 	vertical-align: middle;
 }
