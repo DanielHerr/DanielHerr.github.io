@@ -1,11 +1,18 @@
 h3 {
 	font-size: 1.2em;
 }
-section > a {
-	font-size: 1.2em;
-	display: inline-block;
-	margin: 1em;
-}
 section img {
  vertical-align: bottom;
+}
+#profiles {
+	display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+#profiles h2 {
+	width: 100%;
+	margin-bottom: 0;
+}
+#profiles a {
+	font-size: 1.2em;
 }
