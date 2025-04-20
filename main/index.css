@@ -1,7 +1,7 @@
 h3 {
 	font-size: 1.2em;
 }
-section img {
+img {
  vertical-align: bottom;
 }
 #profiles {
@@ -15,4 +15,7 @@ section img {
 }
 #profiles a {
 	font-size: 1.2em;
+}
+#profiles img, #profiles picture {
+	vertical-align: middle;
 }
