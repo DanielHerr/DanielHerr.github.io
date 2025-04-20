@@ -1,0 +1,11 @@
+h3 {
+	font-size: 1.2em;
+}
+section > a {
+	font-size: 1.2em;
+	display: inline-block;
+	margin: 1em;
+}
+section img {
+ vertical-align: bottom;
+}
