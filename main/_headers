@@ -2,3 +2,6 @@
 	Access-Control-Allow-Origin: *
 	Access-Control-Expose-Headers: *
 	X-Content-Type-Options: nosniff
+
+/*.crx
+	Content-Type: application/x-chrome-extension
