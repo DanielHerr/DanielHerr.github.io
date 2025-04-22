@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gupdate xmlns="http://www.google.com/update2/response" protocol="2.0">
   <app appid="aaobdfgfkndjpaejjdgelbcijcohhifl">
-		<updatecheck version="1.1" prodversionmin="88" codebase="https://extensions.daniel-herr-software.pages.dev/packages/crx/Self_Hosted_Extension_Test_1.1.crx" />
+		<updatecheck version="1.2" prodversionmin="140" codebase="https://extensions.daniel-herr-software.pages.dev/packages/crx/Self_Hosted_Extension_Test_1.2.crx" />
   </app>
 </gupdate>
