@@ -5,8 +5,9 @@ img {
  vertical-align: bottom;
 }
 address {
-	font-style: normal;
+	display: inline-block;
 	margin: -0.5rem;
+	font-style: normal;
 }
 address h2 {
 	margin: 0.5rem;
