@@ -7,12 +7,12 @@ html {
 }
 body {
 	font-family: sans-serif;
-	width: min-content;
+	width: min-content; width: -webkit-min-content; width: -moz-min-content;
 	max-width: 100%;
 	margin: auto;
 }
 header, main {
-	width: max-content;
+	width: max-content; width: -webkit-max-content; width: -moz-max-content;
 	max-width: 100%;
 }
 h1 {
