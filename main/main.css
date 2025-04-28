@@ -20,11 +20,11 @@ h1 {
 }
 
 
-@media (min-width: 18rem) and (max-width: 22rem) {
+@media (min-width: 20rem) and (max-width: 22rem) {
 	html {
 		font-size: 90%;
 } }
-@media (max-width: 18rem) {
+@media (max-width: 20rem) {
 	html {
 		font-size: 80%;
 } }
