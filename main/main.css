@@ -18,3 +18,13 @@ header, main {
 h1 {
 	margin-top: 0;
 }
+
+
+@media (min-width: 18rem) and (max-width: 22rem) {
+	html {
+		font-size: 90%;
+} }
+@media (max-width: 18rem) {
+	html {
+		font-size: 80%;
+} }
