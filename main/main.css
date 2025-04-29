@@ -7,14 +7,24 @@ html {
 }
 body {
 	font-family: sans-serif;
-	width: min-content;
+	width: min-content; width: -webkit-min-content; width: -moz-min-content;
 	max-width: 100%;
 	margin: auto;
 }
 header, main {
-	width: max-content;
+	width: max-content; width: -webkit-max-content; width: -moz-max-content;
 	max-width: 100%;
 }
 h1 {
 	margin-top: 0;
 }
+
+
+@media (min-width: 20rem) and (max-width: 22rem) {
+	html {
+		font-size: 90%;
+} }
+@media (max-width: 20rem) {
+	html {
+		font-size: 80%;
+} }
