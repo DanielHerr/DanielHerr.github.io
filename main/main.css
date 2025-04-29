@@ -3,28 +3,27 @@
 }
 html {
 	color-scheme: light dark;
-	padding: 1em;
+	text-align: center;
 }
 body {
 	font-family: sans-serif;
-	width: min-content; width: -webkit-min-content; width: -moz-min-content;
-	max-width: 100%;
-	margin: auto;
-}
-header, main {
-	width: max-content; width: -webkit-max-content; width: -moz-max-content;
-	max-width: 100%;
+	margin: 1em;
+	display: inline-block;
+	text-align: left;
 }
 h1 {
 	margin-top: 0;
 }
+address {
+	min-width: 100%;
+	width: 18em;
+}
 
-
-@media (min-width: 20rem) and (max-width: 22rem) {
+@media (min-width: 20em) and (max-width: 22em) {
 	html {
 		font-size: 90%;
 } }
-@media (max-width: 20rem) {
+@media (max-width: 20em) {
 	html {
 		font-size: 80%;
 } }
