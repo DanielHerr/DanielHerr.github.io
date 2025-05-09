@@ -16,7 +16,7 @@ h1 {
 }
 address {
 	min-width: 100%;
-	width: 18em;
+	width: 10em;
 }
 
 @media (min-width: 20em) and (max-width: 22em) {
