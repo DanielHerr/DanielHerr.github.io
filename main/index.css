@@ -2,7 +2,14 @@ h3 {
 	font-size: 1.2em;
 }
 img {
- vertical-align: bottom;
+	vertical-align: middle;
+}
+a {
+	display: inline-block;
+	text-decoration: none;
+}
+a span {
+	text-decoration: underline;
 }
 address {
 	margin: -0.5em;
@@ -14,7 +21,6 @@ address h2 {
 }
 address a {
 	font-size: 1.2em;
-	display: inline-block;
 	margin: 0.42em;
 }
 address img, address picture {
