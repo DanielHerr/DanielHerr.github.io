@@ -11,6 +11,9 @@ a {
 a span {
 	text-decoration: underline;
 }
+a.link {
+	text-decoration: underline;
+}
 address {
 	margin: -0.5em;
 	font-style: normal;
